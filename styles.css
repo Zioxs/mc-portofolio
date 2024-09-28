@@ -27,11 +27,11 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
 }
 
 header nav ul li {
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -41,5 +41,5 @@ header nav a {
 }
 
 main {
-    padding-top: 70px;
+    padding-top: 70px; /* Add padding to main section to account for navbar height */
 }

@@ -8,21 +8,56 @@
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <h1>My Minecraft Portfolio</h1>
     </header>
     <main>
-        <!-- Add your portfolio content here -->
-        <section>
-            <h2>Project 1</h2>
-            <p>Description of Project 1</p>
-            <img src="project1.jpg" alt="Project 1 Image">
+        <section id="home">
+            <h2>Welcome to My Minecraft Portfolio</h2>
+            <p>This is a brief introduction to my portfolio.</p>
         </section>
-        <section>
-            <h2>Project 2</h2>
-            <p>Description of Project 2</p>
-            <img src="project2.jpg" alt="Project 2 Image">
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <section>
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1</p>
+                    <img src="project1.jpg" alt="Project 1 Image">
+                </section>
+                <section>
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2</p>
+                    <img src="project2.jpg" alt="Project 2 Image">
+                </section>
+                <!-- Add more projects here -->
+            </div>
         </section>
-        <!-- Add more projects here -->
+        <section id="clients">
+            <h2>My Clients</h2>
+            <p>This section is for showcasing my clients.</p>
+            <ul>
+                <li>Client 1</li>
+                <li>Client 2</li>
+                <!-- Add more clients here -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Contact me through this form or my social media channels.</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy; 2023 My Minecraft Portfolio</p>
